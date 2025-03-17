@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "title": "Apple Watch Series 9",
+        "location": "6096 Marjolaine Landing",
+        "time": "10:30 AM",
+        "quantity": 423,
+        "price": 34295,
+        "status": "Shipped"
+    },
+    {
+        "id": 2,
+        "title": "Samsung Galaxy S23 Ultra",
+        "location": "2391 Jasmine Street",
+        "time": "2:15 PM",
+        "quantity": 198,
+        "price": 109999,
+        "status": "Out for Delivery"
+    },
+    {
+        "id": 3,
+        "title": "Sony WH-1000XM5 Headphones",
+        "location": "742 Evergreen Terrace",
+        "time": "4:45 PM",
+        "quantity": 120,
+        "price": 29990,
+        "status": "Delivered"
+    },
+    {
+        "id": 4,
+        "title": "MacBook Pro 16-inch",
+        "location": "1225 Sunset Boulevard",
+        "time": "1:00 PM",
+        "quantity": 54,
+        "price": 249999,
+        "status": "Shipped"
+    },
+    {
+        "id": 5,
+        "title": "iPad Pro 12.9-inch",
+        "location": "500 Fifth Avenue",
+        "time": "3:30 PM",
+        "quantity": 87,
+        "price": 129900,
+        "status": "Out for Delivery"
+    },
+    {
+        "id": 6,
+        "title": "Dell XPS 13",
+        "location": "200 Elm Street",
+        "time": "11:20 AM",
+        "quantity": 76,
+        "price": 114999,
+        "status": "Delivered"
+    },
+    {
+        "id": 7,
+        "title": "Google Pixel 8 Pro",
+        "location": "1337 Binary Road",
+        "time": "5:15 PM",
+        "quantity": 150,
+        "price": 99999,
+        "status": "Shipped"
+    }
+]
