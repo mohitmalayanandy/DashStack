@@ -3,7 +3,7 @@ import { assets } from '../assets/assets'
 
 const Menubar = () => {
     return (
-        <div className="h-full p-4 overflow-y-auto">
+        <div className="fixed h-full p-4 overflow-y-auto">
             <h1 className="text-2xl font-bold mb-6">
                 <span className="text-blue-500">Dash</span>Stack
             </h1>

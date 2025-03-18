@@ -6,10 +6,10 @@ const DealsDetails = () => {
             id: 1,
             title: "Apple Watch",
             location: "6096 Marjolaine Landing",
-            time: "10:30 AM", // Added sample time
+            time: "10:30 AM",
             quantity: 423,
             price: 34295,
-            status: "Shipped" // Status can be "Shipped", "Out for Delivery", or "Delivered"
+            status: "Shipped" 
         },
         {
             "id": 1,

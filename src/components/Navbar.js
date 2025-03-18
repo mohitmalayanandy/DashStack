@@ -20,7 +20,6 @@ const Navbar = ({ menuBar }) => {
                     />
                 </div>
             </div>
-
             <div className='flex items-center space-x-6'>
                 <img src={assets.notification_icon} alt="notification_icon" className='h-6 w-6 cursor-pointer' />
 

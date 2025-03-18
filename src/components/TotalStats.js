@@ -5,7 +5,7 @@ const TotalStats = () => {
     const stats = [
         { icon: assets.total_users, label: 'Total User', number: 40689 },
         { icon: assets.total_orders, label: 'Total Order', number: 10293 },
-        { icon: assets.total_sales, label: 'Total Sales', number: 89000 },
+        { icon: assets.total_sales, label: 'Total Sales', number: "$ " + 89000 },
         { icon: assets.total_pending, label: 'Total Pending', number: 2040 }
     ]
 
