@@ -3,11 +3,8 @@ import { assets } from '../assets/assets'
 
 const Menubar = () => {
     return (
-        <div className="fixed h-full p-4 overflow-y-auto">
-            <h1 className="text-2xl font-bold mb-6">
-                <span className="text-blue-500">Dash</span>Stack
-            </h1>
-            <div className="space-y-2">
+        <div className="fixed h-full p-4 w-60 overflow-y-auto">
+            <div className="space-y-1">
                 {[
                     { icon: assets.dashboard_icon, label: 'Dashboard' },
                     { icon: assets.product_icon, label: 'Products' },
@@ -23,8 +20,8 @@ const Menubar = () => {
                 ))}
             </div>
             <hr className="w-full border-gray-300" />
-            <p className="mt-6 mb-2 text-gray-500">Pages</p>
-            <div className="space-y-2">
+            <p className="mt-4 mb-2 text-gray-500">Pages</p>
+            <div className="space-y-1">
                 {[
                     { icon: assets.pricing_icon, label: 'Pricing' },
                     { icon: assets.calender_icon, label: 'Calender' },
@@ -42,7 +39,7 @@ const Menubar = () => {
                 ))}
             </div>
             <hr className="w-full border-gray-300" />
-            <div className="space-y-2">
+            <div className="space-y-1">
                 {[
                     { icon: assets.setting_icon, label: 'Settings' },
                     { icon: assets.logout_icon, label: 'Logout' },

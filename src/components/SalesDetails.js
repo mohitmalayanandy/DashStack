@@ -1,13 +1,46 @@
 import React from "react";
-import { assets } from "../assets/assets";
+import ReactApexChart from 'react-apexcharts';
 
 const SalesDetails = () => {
+
+    const [state, setState] = React.useState({
+        series: [{
+            name: 'series1',
+            data: [31, 40, 28, 51, 42, 109, 100]
+        }, {
+            name: 'series2',
+            data: [11, 32, 45, 32, 34, 52, 41]
+        }],
+        options: {
+            chart: {
+                height: 350,
+                type: 'area'
+            },
+            dataLabels: {
+                enabled: false
+            },
+            stroke: {
+                curve: 'smooth'
+            },
+            xaxis: {
+                type: 'datetime',
+                categories: ["2018-09-19T00:00:00.000Z", "2018-09-19T01:30:00.000Z", "2018-09-19T02:30:00.000Z", "2018-09-19T03:30:00.000Z", "2018-09-19T04:30:00.000Z", "2018-09-19T05:30:00.000Z", "2018-09-19T06:30:00.000Z"]
+            },
+            tooltip: {
+                x: {
+                    format: 'dd/MM/yy HH:mm'
+                },
+            },
+        },
+    });
+
     return (
-        <div className="m-5 p-5 bg-white rounded-xl shadow-md">
+        <div className="m-5 p-5 bg-white rounded-xl shadow-md md:m-3 md:p-3 sm:m-2 sm:p-2">
             <h2 className="text-lg font-semibold mb-4">Sales Details</h2>
-            <div className="relative h-40 w-full">
-                <img src={assets.units_bar} alt="Units Bar" className="absolute top-0 left-0 h-40 w-full z-0" />
-                <img src={assets.graph} alt="Graph" className="absolute top-5 left-5 h-32 w-full z-10" />
+            <div className="overflow-x-auto">
+                <div className="min-w-[600px]">
+                    <ReactApexChart options={state.options} series={state.series} type="area" height={300} />
+                </div>
             </div>
         </div>
     );
